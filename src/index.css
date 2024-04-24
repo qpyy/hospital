@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "Roboto";
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("/src/fonts/Roboto/Roboto-Light.ttf") format("truetype"),
+    url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap")
+      format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+button,
+h1,
+p {
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
